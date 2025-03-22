@@ -17,8 +17,8 @@
 
   /* --united-nations-blue: #01d1ff; */
   --united-nations-blue: hsl(214, 56%, 58%);
-  /* --bright-navy-blue: hsl(214, 57%, 51%); */
-  --bright-navy-blue: #ff0000;
+  --bright-navy-blue: hsl(214, 57%, 51%);
+  /* --bright-navy-blue: #ff0000; */
   /* --bright-navy-blue: #dd2f29; */
   --spanish-gray: hsl(0, 0%, 60%);
   --black-coral: hsl(225, 8%, 42%);
@@ -1670,7 +1670,7 @@ header {
 \*-----------------------------------*/
 
 .footer-top {
-  background: var(--gunmetal);
+  background: #770101;
   padding-block: var(--section-padding);
   color: var(--gainsboro);
 }
