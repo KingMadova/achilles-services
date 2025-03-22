@@ -19,14 +19,15 @@
     - custom css link
   -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- 
     - google font link
@@ -97,13 +98,19 @@
 
             <li>
               <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
 
             <li>
               <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
               </a>
             </li>
           </ul>
@@ -129,12 +136,8 @@
               </li>
 
               <li>
-                <a href="#" class="navbar-link" data-nav-link>a propos</a>
-              </li>
-
-              <li>
                 <a href="#destination" class="navbar-link" data-nav-link
-                  >destination</a
+                  >Services</a
                 >
               </li>
 
@@ -143,7 +146,19 @@
               </li>
 
               <li>
+                <a href="#Assurances" class="navbar-link" data-nav-link
+                  >Assurances</a
+                >
+              </li>
+
+              <li>
                 <a href="#gallery" class="navbar-link" data-nav-link>galerie</a>
+              </li>
+
+              <li>
+                <a href="#vehicule" class="navbar-link" data-nav-link
+                  >Véhicule</a
+                >
               </li>
 
               <li>
@@ -172,11 +187,11 @@
               Voyagez sans stress avec notre expertise en tourisme et assurances
             </h4>
 
-            <p class="hero-text">
+            <!-- <p class="hero-text">
               Que vous souhaitiez partir à la découverte de destinations
               exotiques, réserver un voyage d’affaires ou souscrire une
               assurance voyage, nous avons la solution parfaite pour vous.
-            </p>
+            </p> -->
 
             <div class="btn-group">
               <button class="btn btn-primary">EN savoir plus</button>
@@ -256,134 +271,55 @@
         - #POPULAR
       -->
 
-        <section class="popular" id="destination">
-          <div class="container">
-            <p class="section-subtitle">Lieu à découvrir</p>
+        <section
+          class="section__container about__container container"
+          id="about"
+        >
+          <p class="section-subtitle"></p>
 
-            <h2 class="h2 section-title">Destination populaire</h2>
+          <h2 class="h2 section-title">Nos Services</h2>
 
-            <p class="section-text">
-              Découvrez des plages de sable blanc, des eaux cristallines et une
-              culture riche entre influences africaines, arabes et européennes.
-              Laissez-vous séduire par la vieille ville de Stone Town, classée
-              au patrimoine mondial de l’UNESCO, et explorez des récifs
-              coralliens spectaculaires.
-            </p>
+          <p class="section-text">
+            Chez ACHILLES SERVICES, nous nous engageons à rendre vos déplacements aussi
+            fluides et agréables que possible. Que vous ayez besoin de réserver
+            un billet d'avion, de souscrire à une assurance, de planifier une
+            escapade touristique ou de louer un véhicule, nous sommes là pour
+            vous accompagner à chaque étape. Découvrez nos services conçus pour
+            répondre à tous vos besoins de voyage.
+          </p>
 
-            <ul class="popular-list">
-              <li>
-                <div class="popular-card">
-                  <figure class="card-img">
-                    <img
-                      src="./assets/images/img9.jpg"
-                      alt="San miguel, italy"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <p class="card-subtitle">
-                      <a href="#">Paris</a>
-                    </p>
-
-                    <h3 class="h3 card-title">
-                      <a href="#">Tour Eiffel</a>
-                    </h3>
-
-                    <p class="card-text">
-                      Véritable icône de la France, la Tour Eiffel domine le
-                      ciel parisien avec ses 330 mètres de hauteur
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="popular-card">
-                  <figure class="card-img">
-                    <img
-                      src="./assets/images/popular-2.jpg"
-                      alt="Burj khalifa, dubai"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <p class="card-subtitle">
-                      <a href="#">Dubai</a>
-                    </p>
-
-                    <h3 class="h3 card-title">
-                      <a href="#">Burj khalifa</a>
-                    </h3>
-
-                    <p class="card-text">
-                      Burj Khalifa fait partie d'un vaste projet urbanistique,
-                      immobilier et architectural
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="popular-card">
-                  <figure class="card-img">
-                    <img
-                      src="./assets/images/brazzaville_0.jpg"
-                      alt="Kyoto temple, japan"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <p class="card-subtitle">
-                      <a href="#">Brazzaville</a>
-                    </p>
-
-                    <h3 class="h3 card-title">
-                      <a href="#">corniche</a>
-                    </h3>
-
-                    <p class="card-text">
-                      La corniche sud de Brazzaville, Tronçon Case De Gaulle –
-                      Pont du Djoué
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-
-            <button class="btn btn-primary">Plus de destination</button>
+          <div class="about__grid">
+            <div class="about__card">
+              <span><i class="ri-flight-takeoff-line"></i></span>
+              <h4>Vente de Billets d'Avion</h4>
+              <p>
+                Planifiez votre prochain voyage en toute simplicité avec notre
+                service de vente de billets d'avion. budget.
+              </p>
+            </div>
+            <div class="about__card">
+              <span><i class="ri-shield-check-fill"></i></span>
+              <h4>Assurances</h4>
+              <p>
+                Protégez-vous et vos proches avec nos solutions d'assurance
+                complètes.
+              </p>
+            </div>
+            <div class="about__card">
+              <span><i class="ri-map-pin-fill"></i></span>
+              <h4>Tourisme</h4>
+              <p>Découvrez le monde avec nos offres touristiques sur mesure.</p>
+            </div>
+            <div class="about__card">
+              <span><i class="ri-car-fill"></i></span>
+              <h4>Location de véhicule</h4>
+              <p>
+                Notre service de location de voitures est conçu pour vous offrir
+                flexibilité et confort.
+              </p>
+            </div>
           </div>
         </section>
-
-        <!-- 
-        - #PACKAGE
-      -->
 
         <section class="package" id="package">
           <div class="container">
@@ -619,15 +555,125 @@
           </div>
         </section>
 
+        <section class="popular" id="Assurances">
+          <div class="container">
+            <p class="section-subtitle">Solutions d'assurances complètes</p>
+
+            <h2 class="h2 section-title">Quelques produits d'Assurances</h2>
+
+            <p class="section-text">
+              Protégez-vous et vos proches avec nos solutions d'assurance
+              complètes. Que vous cherchiez une assurance voyage, santé,
+              automobile ou habitation, nous vous proposons des options adaptées
+              à votre style de vie. Nos conseillers experts sont à votre
+              disposition pour vous guider dans le choix de la couverture qui
+              vous offre la tranquillité d'esprit dont vous avez besoin, où que
+              vous soyez.
+            </p>
+
+            <ul class="popular-list">
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="./assets/images/habitation.jpg"
+                      alt="San miguel, italy"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <!-- <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div> -->
+
+                    <p class="card-subtitle">
+                      <a href="#">Assurance</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Habitation</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Protège votre domicile et vos biens contre les dommages ou
+                      le vol.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="./assets/images/sante.jpg"
+                      alt="Burj khalifa, dubai"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">
+                      <a href="#">Assurance</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Santé</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Prend en charge les frais médicaux et les soins de santé.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="./assets/images/ass-auto1.jpg"
+                      alt="Kyoto temple, japan"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">
+                      <a href="#">Assurance</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Automobile</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Couvre les dommages causés à votre véhicule et aux autres
+                      en cas d'accident.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary">En savoir plus</button>
+          </div>
+        </section>
+
         <!-- 
         - #GALLERY
       -->
 
         <section class="gallery" id="gallery">
           <div class="container">
-            <p class="section-subtitle">Galerie Photo</p>
+            <p class="section-subtitle">Galerie</p>
 
-            <h2 class="h2 section-title">Photos des Voyageurs</h2>
+            <h2 class="h2 section-title">Photos des lieux Touristique</h2>
 
             <p class="section-text">
               Explorez les souvenirs partagés par ceux qui ont exploré le monde
@@ -680,6 +726,33 @@
         <!-- 
         - #CTA
       -->
+
+        <section class="popular-auto" id="vehicule">
+          <div class="cont-auto">
+            <p class="section-subtitle">Besoin d'un véhicule ?</p>
+
+            <h2 class="h2 section-title">Location de Véhicule</h2>
+
+            <p class="section-text">
+              Notre service de location de voitures est conçu pour vous offrir
+              flexibilité et confort. Choisissez parmi une large gamme de
+              véhicules, des compactes aux SUV, et réservez en ligne en quelques
+              étapes simples. Nous nous assurons que votre voiture est prête à
+              l'heure et à l'endroit qui vous conviennent, pour que vous
+              puissiez prendre la route en toute tranquillité.
+            </p>
+
+            <img
+              src="./assets/images/auto.jpg"
+              alt="Vue sur un parc auto avec
+            des véhicules et des arbres"
+              loading="lazy"
+              class="auto-image"
+            />
+
+            <!-- <button class="btn btn-primary">En savoir plus</button> -->
+          </div>
+        </section>
 
         <section class="cta" id="contact">
           <div class="container">
@@ -814,14 +887,10 @@
     <!-- 
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
-    <script>
-      AOS.init({
-        offset: 200, // Déclenche l'animation quand l'élément est à 200px du bas de l'écran
-        duration: 1000, // Durée de l'animation en millisecondes
-        easing: "ease-out" // Type d'effet de transition
-      });
-    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
 
     <!-- 
     - ionicon link
@@ -830,10 +899,6 @@
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
     <script
       nomodule
